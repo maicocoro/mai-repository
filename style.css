@@ -1,0 +1,83 @@
+*{  background-color: linen;
+    margin: 0;
+    padding: 0;
+    
+}
+.container-fluid{
+    background-color: whitesmoke;
+}
+.top{
+    margin-top: 50px;
+    text-align: center;
+    background-color: linen;
+}
+.top h1{
+    margin-top: 50px;
+    font-size: 500%;
+    font-weight: bold;
+    color: palevioletred;
+    font-family: 'Abhaya Libre', serif;
+}
+.top p{
+    margin: 0;
+}
+.message{
+    padding: 80px 0px;
+    background-color: linen;
+}
+.message img{
+    border-radius: 50%;
+    max-width:100%
+}
+.product-title h2{
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    margin: 20px 0;
+}
+.col-md-3{
+    text-align: center;
+    padding: 15px;
+}
+.item-coment p{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.p1:hover{
+    color: lightgray;
+}
+.pagination{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.pagination li{
+    padding: 50px 20px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+}
+footer{
+
+}
+footer li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Abhaya Libre', serif; 
+    padding: 0 1rem;
+
+}
+footer li a:hover{
+    color: white;
+}
+footer p{
+    text-align: right;
+    margin-right: 10px;
+}
