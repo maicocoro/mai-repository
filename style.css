@@ -36,10 +36,7 @@
 }
 .col-md-3{
     text-align: center;
-    padding: 10px;
-}
-.col-md-3 a{
-    max-width: 100%;
+    padding: 15px;
 }
 .item-coment p{
     color: black;
