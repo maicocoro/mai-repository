@@ -63,12 +63,14 @@ a{
 
 /* about */
 .content-wrapper{
+    max-width: 100%;
     justify-content: center;
 }
 .content-wrapper h1{
     text-align: center;
     font-family: 'Abhaya Libre', serif;
     margin: 20px 0;
+
 }
 .content-wrapper p{
     padding: 20px 70px;
@@ -76,11 +78,18 @@ a{
 }
 .list-group-item{
     background-color: linen;
-    padding: 0 25%;
-    margin: 30px;
+    font-family: 'Abhaya Libre', serif;
+    padding: 0;
+    margin: 0 25%;
+    max-width: 100%;
+}
+.list-group-item h6{
+    margin-top: 10px;
+    text-align: center;
 }
 .list-group-item p{
-    padding-left: 200px;
+    text-align: center;
+    font-size: 150%;
 }
 .map{
     filter: grayscale(1);
